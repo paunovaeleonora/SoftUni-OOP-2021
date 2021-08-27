@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fabrice
+Version: 1.1.1
+Summary: SSH Automation
+Home-page: http://faby.org
+Author: faby
+Author-email: faby@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Systems Administration
+Requires-Dist: boto3
+Requires-Dist: invoke (<2.0,>=1.3)
+Requires-Dist: paramiko (>=2.4)
+Requires-Dist: pathlib2
+Requires-Dist: requests
+Provides-Extra: pytest
+Requires-Dist: mock (<3.0,>=2.0.0) ; extra == 'pytest'
+Requires-Dist: pytest (<4.0,>=3.2.5) ; extra == 'pytest'
+Provides-Extra: testing
+Requires-Dist: mock (<3.0,>=2.0.0) ; extra == 'testing'
+
+
+
+Server Automation Tool
+
+
+

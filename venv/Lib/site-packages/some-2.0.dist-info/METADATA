@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: some
+Version: 2.0
+Summary: More than less; less than more.
+Home-page: https://github.com/sersorrel/some
+Author: Ash Holland
+Author-email: ash@sorrel.sh
+License: EUPL-1.2
+Keywords: pager
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# some
+
+More than less, but less than more.
+
+some is a pager… sometimes. If the input is less than one screen long,
+some will print it directly to the terminal; otherwise, it will use
+whatever pager you have configured to display the input.
+
+some supports input from stdin or from a file passed on the
+command-line.
+
+## Copyright
+
+Copyright © 2018 Ash Holland. Licensed under the EUPL (1.2 or later).
+
+

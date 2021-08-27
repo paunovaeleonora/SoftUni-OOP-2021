@@ -1,0 +1,7 @@
+base32hex.py
+setup.cfg
+setup.py
+base32hex.egg-info/PKG-INFO
+base32hex.egg-info/SOURCES.txt
+base32hex.egg-info/dependency_links.txt
+base32hex.egg-info/top_level.txt
